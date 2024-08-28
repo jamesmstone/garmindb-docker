@@ -3,7 +3,3 @@ jobs:
     command: garmindb_cli.py --download --import --analyze --all --latest
     shell: /bin/bash
     schedule: "0 0 * * *"
-  - name: backup
-    command: garmindb_cli.py --backup
-    shell: /bin/bash
-    schedule: "0 2 * * *"
