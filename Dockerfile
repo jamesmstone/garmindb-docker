@@ -1,4 +1,4 @@
-FROM python:3.14-rc-slim
+FROM python:3.12.5-slim
 
 RUN pip3 install --no-cache-dir garmindb yacron
 
