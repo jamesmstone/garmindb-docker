@@ -1,5 +1,0 @@
-jobs:
-  - name: download
-    command: garmindb_cli.py --download --import --analyze --all --latest
-    shell: /bin/bash
-    schedule: "0 0 * * *"
